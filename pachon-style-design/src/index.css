@@ -13,17 +13,25 @@ code {
     monospace;
  
 }
-.App{
+/* .App{
   border: 1px  hsl(179, 47%, 56%) solid;
   height: 90vh;
   margin: 1em;
 
 
-}
-.SecondBorder{
+} */
+/* .SecondBorder{
   border: 2px hsl(179, 47%, 56%) solid;
   height: 95vh;
   margin: 1em;
 
-}
+} */
 
+h3{
+  color: rgba(126, 122, 122, 0.87);
+  font-family: 'Gayathri', sans-serif;
+  /* text-align: center; */
+  font-size: 50px;
+  font-weight: 20;
+
+}
