@@ -1,0 +1,36 @@
+.roundbutton{
+
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    margin-left: 80%;
+    /* margin-top: 23%;  */
+    color:rgb(100, 97, 97);
+    border: 3px solid rgb(202, 196, 179);
+    background-color:rgb(221, 218, 115);
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+} 
+
+.buttoncaption{
+    /* margin: auto;
+    text-align: center; */
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 30%;
+    /* border: black solid  3px; */
+
+
+}
+
+.removelink{
+    text-decoration: none;
+    color:rgb(100, 97, 97);
+    font-family: 'News Cycle', sans-serif;
+    font-size: 30px;
+
+}
