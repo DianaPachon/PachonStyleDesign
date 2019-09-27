@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './home.css';
 import {Link } from 'react-router-dom' 
 import Activebuttons from '../navigation/activebuttons'
+import Normalbuttons from '../navigation/normalbuttons';
 
 const Home = () => {
     return (
@@ -16,10 +17,9 @@ const Home = () => {
                 <button className="buttonwork">WORK</button>
                 <button className="buttoncontact">CONTACT</button> */}
                     <Activebuttons></Activebuttons>
+                    <Normalbuttons></Normalbuttons>
                     {/* <Link to="/" className="nav-item nav-link ml-4">Home </Link> */}
-                    <Link to="/About" className="nav-item nav-link ml-4">About</Link>
-                    <Link to="/Portfolio" className="nav-item nav-link ml-4">Portfolio</Link>
-                    <Link to="/Contact" className="nav-item nav-link ml-4"> Contact Me</Link>        
+
             </div>
 
 

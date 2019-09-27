@@ -8,7 +8,7 @@ const Activebuttons = () =>
     return (
         <div className="roundbutton" >
             <Link className="removelink"to="/">
-                <span className="buttoncaption">Home</span>
+                <span className="buttoncaption2">Home</span>
             </Link>
         </div>
 

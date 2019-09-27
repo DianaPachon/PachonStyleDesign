@@ -28,62 +28,8 @@ font-family: 'Cinzel', serif;
     font-size: 33px;
     position: absolute;
     padding-left: 30%;
-    padding-top: 33%;
+    padding-top: 35%;
     font-family: 'News Cycle', sans-serif;
     color: rgb(95, 95, 95);
 
-}
-
-.buttonhome{
-    font-size: 30px;
-    border-radius: 50%;
-    padding: 2%;
-    position: absolute;
-    margin-left: 78%;
-    color:rgb(100, 97, 97);
-    border: 3px solid rgb(202, 196, 179);
-    background-color: #FF7557;
-    font-family: 'News Cycle', sans-serif;
-    cursor: pointer;
-    
-}
-
-.buttonabout{
-    font-size: 25px;
-    border-radius: 50%;
-    padding: 3%;
-    position: absolute;
-    margin-left: 40%;
-    margin-top: 23%;
-    color:rgb(100, 97, 97);
-    border: 3px solid rgb(202, 196, 179);
-    background-color:rgb(221, 218, 115);
-    font-family: 'News Cycle', sans-serif;
-    cursor: pointer;
-}
-.buttonwork{
-    font-size:25px;
-    border-radius: 50%;
-    padding: 3%;
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 23%;
-    color:rgb(100, 97, 97);
-    border: 3px solid rgb(202, 196, 179);
-    background-color:rgb(221, 218, 115);
-    font-family: 'News Cycle', sans-serif;
-    cursor: pointer;
-}
-.buttoncontact{
-    font-size: 25px;
-    border-radius: 60%;
-    padding: 3%;
-    position: absolute;
-    margin-left: 70%;
-    margin-top: 23%;
-    color:rgb(100, 97, 97);
-    border: 3px solid rgb(202, 196, 179);
-    background-color:rgb(221, 218, 115);
-    font-family: 'News Cycle', sans-serif;
-    cursor: pointer;
 }

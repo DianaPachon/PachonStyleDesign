@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 // import Navbar from './Navbar/Navbar.js'; 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './components/home/Home';
-import About from './About';
+import About from './components/About/About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 

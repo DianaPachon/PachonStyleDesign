@@ -17,11 +17,11 @@ return (
       
 
            <div className="navbar-nav ml-auto">
-           <Link to="/"className="nav-item nav-link ml-4">Home </Link>
+           {/* <Link to="/"className="nav-item nav-link ml-4">Home </Link>
                      <Link to="/About"className="nav-item nav-link ml-4">About</Link>
                      <Link to="/Portfolio" className="nav-item nav-link ml-4">Portfolio</Link>
                      <Link to="/Contact" className="nav-item nav-link ml-4"> Contact Me</Link>
-               </div>
+               </div> */}
 
            {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                <span className="navbar-toggler-icon"></span>
