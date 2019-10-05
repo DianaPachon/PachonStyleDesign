@@ -1,36 +1,23 @@
-.roundbutton{
+.active{
+    background-color:#FF7557;  
+}
 
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
-    position: absolute;
-    margin-left: 80%;
-    /* margin-top: 23%;  */
-    color:rgb(100, 97, 97);
-    border: 3px solid rgb(202, 196, 179);
-    background-color:#FF7557;
 
-    cursor: pointer;
+#roundbuttonactive{
+
     text-align: center;
     vertical-align: middle;
     display:table;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 0%; 
+
 } 
 
-.buttoncaption2{
-    /* margin: auto;
-    text-align: center; */
+.buttoncaption3{
     display: table-cell;
     vertical-align: middle;
-    padding-top: 50%;
-    /* border: black solid  3px; */
-
+    padding-top: 35%;
 
 }
 
-.removelink{
-    text-decoration: none;
-    color:rgb(100, 97, 97);
-    font-family: 'News Cycle', sans-serif;
-    font-size: 30px;
-
-}

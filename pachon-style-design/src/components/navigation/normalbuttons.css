@@ -1,87 +1,58 @@
-.roundbuttonabout{
-
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
-    position: absolute;
-    margin-left: 40%;
-    margin-top: 25%;
-    /* margin-top: 23%;  */
-    color:rgb(100, 97, 97);
-    border: 3px solid rgb(202, 196, 179);
+.normal{
     background-color:rgb(221, 218, 115);
+    
+}
+#roundbuttonabout{
 
-    cursor: pointer;
     text-align: center;
     vertical-align: middle;
     display:table;
+    position: absolute !important;
+    margin-left: 38% !important;
+    margin-top: 22% !important;
 } 
-
-.roundbuttonportfolio{
-
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
-    position: absolute;
-    margin-left: 55%;
-    margin-top: 25%;
-    /* margin-top: 23%;  */
-    color:rgb(100, 97, 97);
-    border: 3px solid rgb(202, 196, 179);
-    background-color:rgb(221, 218, 115);
-
-    cursor: pointer;
-    text-align: center;
-    vertical-align: middle;
-    display:table;
-} 
-
-.roundbuttoncontact{
-
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
-    position: absolute;
-    margin-left: 70%;
-    margin-top: 25%;
-    /* margin-top: 23%;  */
-    color:rgb(100, 97, 97);
-    border: 3px solid rgb(202, 196, 179);
-    background-color:rgb(221, 218, 115);
-
-    cursor: pointer;
-    text-align: center;
-    vertical-align: middle;
-    display:table;
-} 
-
-
 .buttoncaption{
-    /* margin: auto;
-    text-align: center; */
+
     display: table-cell;
     vertical-align: middle;
-    padding-top: 40%;
-    /* border: black solid  3px; */
-
-
+    padding-top: 49%;
 }
+ 
+#roundbuttonportfolio{
 
+    position: absolute !important;
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    margin-left: 54% !important;
+    margin-top: 22% !important;
+
+} 
 .buttoncaption1{
-    /* margin: auto;
-    text-align: center; */
+
     display: table-cell;
     vertical-align: middle;
-    padding-top: 50%;
-    /* border: black solid  3px; */
-
+    padding-top: 35%;
 
 }
 
-.removelink{
-    text-decoration: none;
-    color:rgb(100, 97, 97);
-    font-family: 'News Cycle', sans-serif;
-    font-size: 30px;
+#roundbuttoncontact{
+
+    position: absolute !important;
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    position: absolute;
+    margin-left: 70% !important;
+    margin-top: 22% !important;
+
+} 
+
+
+.buttoncaption2{
+
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 39%;
 
 }

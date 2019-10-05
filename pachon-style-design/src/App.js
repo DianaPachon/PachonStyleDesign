@@ -3,8 +3,8 @@ import React, {Component} from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './components/home/Home';
 import About from './components/About/About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
 
 
 

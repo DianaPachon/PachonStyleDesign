@@ -6,9 +6,9 @@ const Activebuttons = () =>
 
 {
     return (
-        <div className="roundbutton" >
+        <div className="buttonround active" id="roundbuttonactive"  >
             <Link className="removelink"to="/">
-                <span className="buttoncaption2">Home</span>
+                <span className="buttoncaption3">Home</span>
             </Link>
         </div>
 

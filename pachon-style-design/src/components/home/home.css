@@ -21,6 +21,7 @@ padding-top: 15%;
 font-style: italic;
 font-size: 40px;
 font-family: 'Cinzel', serif;
+   z-index: -1;
 
 }
 
@@ -28,8 +29,10 @@ font-family: 'Cinzel', serif;
     font-size: 33px;
     position: absolute;
     padding-left: 30%;
-    padding-top: 35%;
+    padding-top: 32%;
     font-family: 'News Cycle', sans-serif;
     color: rgb(95, 95, 95);
+    z-index: -1;
 
 }
+
