@@ -16,7 +16,7 @@ render () {
        <div className="App">
       
             <Switch>
-              <Route exact path='/' component={Home} />
+              <Route exact path='/Home' component={Home} />
               <Route  path='/About' component={About} />
               <Route  path='/Portfolio' component={Portfolio} />
               <Route  path='/Contact' component={Contact} />

@@ -4,15 +4,21 @@ body{
 .About-info{
  
     position: absolute;
+    bottom: 5%;
+    font-size: 12px;
+    padding-left: 35%;
+    padding-right: 10%;
 
 }
 
 .title{
 position: absolute;
-bottom: 4%;
-right: 3%; 
+top: 55%;
+right: 45%; 
 padding-left: 10%;
-background-color: white;
+font-size: 40px;
+
+
 
 }
 
@@ -32,9 +38,11 @@ position: relative;
 
 .aboutcomponentbuttons{
     position: absolute;
-    top: 40px;
+    top: 20px;
+    background-color: #ddda73;
     
 }
+
 
 /* .roundbuttonabout{
 

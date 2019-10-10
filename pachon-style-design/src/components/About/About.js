@@ -13,7 +13,8 @@ class About extends Component {
         <div className="upperbackground">
         <div className="title"> Diana Pachon</div>
         <img id="imagediana" src="../../images/picturedianap.png" alt="Diana"></img>
-        <Activebuttons className="aboutcomponentbuttons"></Activebuttons>
+        
+        <Activebuttons className="aboutcomponentbuttons"caption="About"></Activebuttons>
 
           <header className="About-info">Born in Colombia, I have been living in Miami for over 17 years and frequently travel abroad to Latin America, Europe and Africa.
 After 10 years of experience in Interior Design, hospitality and Project Management, I am venturing into the world of web development to better reach clients and showcase my skills.
@@ -24,7 +25,7 @@ to provide excellence in all my professional endeavors and have earned a reputat
 work ethic. Incorporating User Interface Design, HTML, CSS, Javascript, Node.js to my vast experience in Photoshop, Illustrator will
 help me to make a great impact on each project I am working on. </header>
             </div>
-            <Normalbuttons></Normalbuttons>
+            <Normalbuttons caption="Home" caption1="Portfolio"></Normalbuttons>
         
 
       </div>

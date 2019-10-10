@@ -2,20 +2,20 @@ import React from 'react'
 import { Link } from 'react-router-dom' 
 import './normalbuttons.css'
 
-const Normalbuttons = () => 
+const Normalbuttons = ({caption, caption1}) => 
 
 {
     return (
         <div>
         <div className="buttonround normal" id="roundbuttonabout" >
-            <Link className="removelink"to="/About">
-                <span className="buttoncaption">About</span>
+            <Link className="removelink"to={caption}>
+                <span className="buttoncaption">{caption}</span>
             </Link>
         </div>
 
         <div className="buttonround normal" id="roundbuttonportfolio" >
-            <Link className="removelink"to="/Portfolio">
-                <span className="buttoncaption1">Portfolio</span>
+            <Link className="removelink"to={caption1}>
+                <span className="buttoncaption1">{caption1}</span>
             </Link>
         </div>
 

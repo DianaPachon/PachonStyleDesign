@@ -16,7 +16,7 @@ const Home = () => {
                 <button className="buttonabout">ABOUT</button>
                 <button className="buttonwork">WORK</button>
                 <button className="buttoncontact">CONTACT</button> */}
-                    <Activebuttons></Activebuttons>
+                    <Activebuttons caption="Home"></Activebuttons>
                     <Normalbuttons></Normalbuttons>
                     {/* <Link to="/" className="nav-item nav-link ml-4">Home </Link> */}
 
