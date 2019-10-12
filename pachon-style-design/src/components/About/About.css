@@ -1,19 +1,29 @@
 body{
     padding: 2.5%;
 }
+.about-background{
+    position: absolute;
+    padding-top: 5%;
+    background-size:30%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    margin: 2%;
+    /* z-index: 1; */
+}
 .About-info{
  
     position: absolute;
-    bottom: 5%;
-    font-size: 12px;
-    padding-left: 35%;
-    padding-right: 10%;
+    top:40%;
+    font-size: 16px;
+    padding-left: 38%;
+    padding-right: 5%;
 
 }
 
 .title{
 position: absolute;
-top: 55%;
+top: 30%;
 right: 45%; 
 padding-left: 10%;
 font-size: 40px;
@@ -24,10 +34,10 @@ font-size: 40px;
 
 .upperbackground{
     background-color: #ff7557;
-   height: 450px;
+   height: 650px;
    width: 100%;
 position: relative;
-
+z-index: -3;
 
 }
 
@@ -38,12 +48,26 @@ position: relative;
 
 .aboutcomponentbuttons{
     position: absolute;
-    top: 20px;
+    top: 50px;
     background-color: #ddda73;
     
 }
 
+.normalbuttonsabout{
+    position: relative;
+    top: 10%;
+    display: inline-block;
+}
 
+.abouthomecss{
+    position: absolute !important;
+    top:30% !important;
+}
+
+.aboutportfoliocss{
+    position: relative;
+    top:30%;
+}
 /* .roundbuttonabout{
 
     border-radius: 50%;

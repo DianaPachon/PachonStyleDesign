@@ -1,0 +1,81 @@
+
+/*HOME BUTTON*/
+
+#roundbuttonabout-home{
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 2%; 
+    background-color:rgb(221, 218, 115);
+} 
+
+.buttoncaptionabout-home{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 45%;
+
+}
+
+/* ABOUT BUTTON*/
+
+#roundbuttonabout-about{
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    position: absolute !important;
+    margin-left: 38% !important;
+    margin-top: 34% !important;
+    background-color:rgb(221, 218, 115);
+} 
+
+/* PORTFOLIO BUTTON*/
+
+.buttoncaptionabout-about{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 42%;
+}
+ 
+#roundbuttonabout-portfolio{
+
+    position: absolute !important;
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    margin-left: 54% !important;
+    margin-top: 34% !important;
+    background-color:rgb(221, 218, 115);
+
+} 
+.buttoncaptionabout-portfolio{
+
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 35%;
+
+}
+
+#roundbuttonabout-contact{
+
+    position: absolute !important;
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    position: absolute;
+    margin-left: 70% !important;
+    margin-top: 34% !important;
+    background-color:rgb(221, 218, 115);
+
+} 
+
+
+.buttoncaptionabout-contact{
+
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 39%;
+
+}
+

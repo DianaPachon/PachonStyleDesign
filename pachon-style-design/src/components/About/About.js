@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './About.css';
-import Activebuttons from '../navigation/activebuttons'
-import Normalbuttons from '../navigation/normalbuttons';
+import Aboutbuttons from '../navigation/aboutbuttons'
+
 
 
 
@@ -9,12 +9,26 @@ class About extends Component {
   render() {
     return (
 
+
       <div className="About">
+  
+                <Aboutbuttons className="buttoncaptionabout" id="roundbuttonabout" 
+        caption="About" 
+        caption1="Portfolio" 
+        caption2="Home"
+        caption3="Contact">
+          
+        </Aboutbuttons>
+        <div> 
+          <img src="/images/logDP9.12.19.png" alt="logo" className="about-background">
+            </img>
+            </div>
         <div className="upperbackground">
+
+
         <div className="title"> Diana Pachon</div>
         <img id="imagediana" src="../../images/picturedianap.png" alt="Diana"></img>
         
-        <Activebuttons className="aboutcomponentbuttons"caption="About"></Activebuttons>
 
           <header className="About-info">Born in Colombia, I have been living in Miami for over 17 years and frequently travel abroad to Latin America, Europe and Africa.
 After 10 years of experience in Interior Design, hospitality and Project Management, I am venturing into the world of web development to better reach clients and showcase my skills.
@@ -24,9 +38,10 @@ Always seeking professional challenges, I am eager to contribute to the design a
 to provide excellence in all my professional endeavors and have earned a reputation of integrity, initiative, and results-driven
 work ethic. Incorporating User Interface Design, HTML, CSS, Javascript, Node.js to my vast experience in Photoshop, Illustrator will
 help me to make a great impact on each project I am working on. </header>
+
             </div>
-            <Normalbuttons caption="Home" caption1="Portfolio"></Normalbuttons>
-        
+
+       
 
       </div>
     );
