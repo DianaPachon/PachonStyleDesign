@@ -1,0 +1,90 @@
+#card1{
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 2%;
+    background-size: cover;
+    position: relative;  
+    box-shadow: 0px 30px 30px -20px rgba(0,0,0,1),
+    inset 0 0 0 1000px rgba(106, 138, 146, 0.4);
+    transition: all 0.4s cubic-bezier(.37,.26,.109,.2);
+    display: inline-block;
+    }
+    
+#card1:hover{
+    box-shadow:  0px 30px 30px -20px rgba(0, 0, .9),
+    inset 0 0 0 1000px rgba(106, 194, 216, 0.2);
+}
+
+#card1:hover #avatar1{
+    box-shadow: 0;
+    width: 100px;
+    height: 100px;
+    transition: all 0.4s cubic-bezier(.37,.26,.35.1);
+    animation: circleAn 4s 2;
+}
+
+
+#profile1{
+    transition:all 0.8s cubic-beizer(.37, .26, 1);
+    opacity: 1;
+    position: absolute;
+    top: 35%;
+    /* bottom: 50px; */
+    width: 100%;
+    
+     
+}
+
+#profile1 h1{
+    color: rgb(212, 199, 12);
+    padding: 0%;
+    margin: 0;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.945);
+}
+
+#profile1 h3{
+    color: rgb(212, 199, 12);
+    padding: 0%;
+    margin: 10px 0 40px 0;
+    font-size: 20px;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.945);
+  
+}
+
+#avatar1{
+
+    width: 150px;
+    height: 150px;
+    top: -20%;
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    /* background-image: url(/images/clickgame.png); */
+/* background-color: rgb(212, 199, 12); */
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100%;   
+    box-shadow: 0px 30px 30px -25px rgba(0,0,0,0.6);
+
+}
+
+
+
+@keyframes circleAn {
+    0%{
+        box-shadow: 0px 30px 30px -25px rgba(0,0,0,0.6),
+        0px 0px 0px 0px rgb(79, 89, 107),
+        0px 0px 0px 0px rgba(79, 89, 107, 7 );
+     
+    }
+    100%{
+        box-shadow: 0px 30px 30px -25px rgba(0,0,0,0.6),
+        0px 0px 0px 70px rgba(94, 123, 150, 0),
+        0px 0px 0px 200px rgba(119, 151, 182, 0),
+        0px 0px 0px 3000px rgba(132, 193, 201, 0);
+    }
+}

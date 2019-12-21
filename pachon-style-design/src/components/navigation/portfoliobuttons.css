@@ -1,0 +1,64 @@
+#roundbuttonportfolio-home{
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    position: absolute;
+    margin-left:20% !important;
+    margin-top: 36% !important;  
+    
+    background-color:rgb(221, 218, 115);
+}
+
+.buttoncaptionportfolio-home{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 45%;
+    }
+
+#roundbuttonportfolio-about{
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    position: absolute;
+    margin-left: 35% !important;
+    margin-top: 36% !important; 
+    background-color:rgb(221, 218, 115);
+}
+
+.buttoncaptionportfolio-about{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 45%;
+
+}
+
+#roundbuttonportfolio-portfolio{
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    position: absolute;
+    margin-left: 50% !important;
+    margin-top: 36% !important; 
+   
+    background-color:rgb(255,118,87)
+}
+.buttoncaptionportfolio-portfolio{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 35%;
+}
+
+#roundbuttonportfolio-contact{
+    text-align: center;
+    vertical-align: middle;
+    display:table;
+    position: absolute;
+    margin-left: 65% !important;
+    margin-top: 36% !important; 
+    background-color:rgb(221, 218, 115);
+}
+.buttoncaptionportfolio-contact{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 35%;
+}

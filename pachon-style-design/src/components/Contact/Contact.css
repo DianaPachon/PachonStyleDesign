@@ -1,0 +1,28 @@
+
+
+*
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #03080a;
+}
+.contactBody{
+    width: 80%;
+    padding: 20px;
+}
+
+.contactBody h2 {
+    width: 100%;
+    color: #45f3ff;
+    font-size: 36px;
+    text-align: center; 
+}

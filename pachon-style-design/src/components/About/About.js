@@ -20,14 +20,14 @@ class About extends Component {
           
         </Aboutbuttons>
         <div> 
-          <img src="/images/logDP9.12.19.png" alt="logo" className="about-background">
+          <img src="/images/type.png" alt="logo" className="typer">
             </img>
             </div>
         <div className="upperbackground">
 
 
         <div className="title"> Diana Pachon</div>
-        <img id="imagediana" src="../../images/picturedianap.png" alt="Diana"></img>
+        <img id="imagediana" src="/images/diapac.png" alt="Diana"></img>
         
 
           <header className="About-info">Born in Colombia, I have been living in Miami for over 17 years and frequently travel abroad to Latin America, Europe and Africa.

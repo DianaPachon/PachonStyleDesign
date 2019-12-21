@@ -13,11 +13,11 @@ const Aboutbuttons = ({caption, caption1, caption2, caption3}) =>
             </Link>
         </div>
 
-        <div className="buttonround" id="roundbuttonabout-about" >
+         <div className="buttonround" id="roundbuttonabout-about" >
             <Link className="removelink"to={caption2}>
                 <span className="buttoncaptionabout-about">{caption2}</span>
             </Link>
-        </div>
+        </div> 
 
         <div className="buttonround" id="roundbuttonabout-portfolio" >
             <Link className="removelink"to={caption1}>

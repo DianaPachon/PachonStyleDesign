@@ -6,7 +6,7 @@
     vertical-align: middle;
     display:table;
     position: absolute;
-    margin-left: 80%;
+    margin-left: 72% !important;
     margin-top: 2%; 
     background-color:rgb(221, 218, 115);
 } 
@@ -25,7 +25,7 @@
     vertical-align: middle;
     display:table;
     position: absolute !important;
-    margin-left: 38% !important;
+    margin-left: 32% !important;
     margin-top: 34% !important;
     background-color:rgb(221, 218, 115);
 } 
@@ -44,7 +44,7 @@
     text-align: center;
     vertical-align: middle;
     display:table;
-    margin-left: 54% !important;
+    margin-left: 52% !important;
     margin-top: 34% !important;
     background-color:rgb(221, 218, 115);
 
@@ -64,7 +64,7 @@
     vertical-align: middle;
     display:table;
     position: absolute;
-    margin-left: 70% !important;
+    margin-left: 72% !important;
     margin-top: 34% !important;
     background-color:rgb(221, 218, 115);
 
