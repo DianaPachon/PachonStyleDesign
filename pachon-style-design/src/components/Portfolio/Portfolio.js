@@ -14,16 +14,16 @@ class Portfolio extends Component{
           <Portfoliobuttons caption="Home" caption2="About" caption3="Contact" caption1="Portfolio"></Portfoliobuttons>
           </div>
 
-              <div id="cardset">
-          <Card title="click Game" description="play with click!"image="/images/card2.png"></Card>
-          <Card title="Eat Like a Champ!" description="Go to Website!"image="/images/card1.png">></Card>
-          <Card title="Eat Like a Champ!" description="Go to Website!"image="/images/card3.png"></Card>
-          <Card title="Eat Like a Champ!" description="Go to Website!"image="/images/card4.png"></Card>\
+              <div id="cardset" className="row">
+          <Card className="col-6 col-md-3" title="click Game" description="play with click!"image="/images/card2.png"></Card>
+          <Card className="col-6 col-md-3"title="Eat Like a Champ!" description="Go to Website!"image="/images/card1.png">></Card>
+          <Card className="col-6 col-md-3" title="Eat Like a Champ!" description="Go to Website!"image="/images/card3.png"></Card>
+          <Card className="col-6 col-md-3" title="Eat Like a Champ!" description="Go to Website!"image="/images/card4.png"></Card>\
               </div>
 
-              <span id="pachonstyle">
+              <div id="pachonstyle">
                     Pachon Style Design
-            </span>
+            </div>
     
         </div>
 
